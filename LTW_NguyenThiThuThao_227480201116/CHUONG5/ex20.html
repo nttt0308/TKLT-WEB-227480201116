@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>đăng nhập thành viên</title>
+    <link rel="stylesheet" href="ex20.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Đăng nhập thành viên</h2>
+      <form action="login.php" method="POST">
+        <label>Email name</label>
+        <input type="email" name="email" required />
+        <label>Password</label>
+        <input type="password" name="password" required />
+        <label>Mã số</label>
+        <input type="text" name="maso" required />
+        <button type="submit">Đăng nhập</button>
+        <button type="button" onclick="location.href=register.html">
+          Đăng ký
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
